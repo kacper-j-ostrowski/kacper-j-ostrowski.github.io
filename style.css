@@ -69,6 +69,10 @@ main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+article:not(:last-child) {
+  margin-bottom: 40px;
+}
+
 .fab {
   border: 1px solid white;
   border-radius: 50%;
